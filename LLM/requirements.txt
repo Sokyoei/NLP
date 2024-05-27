@@ -1,0 +1,14 @@
+# download
+modelscope
+
+# model
+transformers
+openai
+langchain
+
+# web app
+gradio
+streamlit
+
+# Fine-Tuned
+peft
