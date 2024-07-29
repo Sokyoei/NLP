@@ -1,10 +1,17 @@
 # download
 modelscope
 
+# dataset
+datasets
+
 # model
 transformers
 openai
+
+# langchain
 langchain
+langchain_openai
+langchain-community
 
 # web app
 gradio
@@ -12,3 +19,4 @@ streamlit
 
 # Fine-Tuned
 peft
+trl

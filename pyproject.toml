@@ -1,10 +1,8 @@
 [project]
-name = "nlp"
+name = "NLP"
 version = "0.1.0"
 description = "Sokyoei's NLP project"
-authors = [
-    { name = "Sokyoei", email = "89757286+Sokyoei@users.noreply.github.com" }
-]
+authors = [{ name = "Sokyoei", email = "89757286+Sokyoei@users.noreply.github.com" }]
 dependencies = []
 readme = "README.md"
 requires-python = ">= 3.8"
@@ -21,4 +19,10 @@ dev-dependencies = []
 allow-direct-references = true
 
 [tool.hatch.build.targets.wheel]
-packages = ["src/nlp"]
+packages = ["LLM", "NLP"]
+
+[tool.black]
+line-length = 120
+preview = true
+skip-string-normalization = true
+skip-magic-trailing-comma = true
