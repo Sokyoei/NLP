@@ -11,6 +11,9 @@ requires-python = ">= 3.8"
 requires = ["hatchling"]
 build-backend = "hatchling.build"
 
+[project.optional-dependencies]
+llm = ["modelscope", "openai", "transformers"]
+
 [tool.rye]
 managed = true
 dev-dependencies = []

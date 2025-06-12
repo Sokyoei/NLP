@@ -13,6 +13,7 @@ Large Language Model 大语言模型
 - Retrieval
 - Function Call
 - Code interpreter
+- 思维链 CoT(Chain of Thought)
 
 ## 下载大模型
 
