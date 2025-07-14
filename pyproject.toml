@@ -12,7 +12,8 @@ requires = ["hatchling"]
 build-backend = "hatchling.build"
 
 [project.optional-dependencies]
-llm = ["modelscope", "openai", "transformers"]
+llm = ["modelscope", "openai", "transformers", "peft", "langchain"]
+mcp = ["mcp[cli]", "httpx"]
 
 [tool.rye]
 managed = true
@@ -22,7 +23,7 @@ dev-dependencies = []
 allow-direct-references = true
 
 [tool.hatch.build.targets.wheel]
-packages = ["LLM", "NLP"]
+packages = ["Ahri"]
 
 [tool.black]
 line-length = 120
